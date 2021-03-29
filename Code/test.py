@@ -71,6 +71,7 @@ def rozpakuj_xy_lin_pol(grd):
 ########################################################################################################################
 ########################################################################################################################
 def rozpakuj_xy_ob_geom(grd):
+    '''funkcja tworząca listę z koordynatów odczytanych z obiektu'''
     koordynaty=[]
     try:
         if isinstance(grd, gpd.geodataframe.GeoDataFrame) == True:
