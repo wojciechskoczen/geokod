@@ -102,6 +102,8 @@ if __name__=='__main__':
     rg=gpd.GeoDataFrame()
     rg['geometry']=None
     wynik=rozpakuj_xy_ob_geom(c_zmiesz)
+
+
     c_zmiesz['Kolumn_wyn']=wynik
     c_zmiesz.to_excel('C:\\Temp\\Geokoder\\Ostat.xlsx',encoding='utf-8')
 
